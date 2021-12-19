@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="../src/css/bootstrap.min.css">
     <link rel="stylesheet" href="../src/plugins/bootstrap-selector/css/bootstrap-select.min.css">
     <!-- Icon font css -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="../src/plugins/themify-icon/themify-icons.css">
     <link rel="stylesheet" href="../src/plugins/flaticon/flaticon.css">
     <link rel="stylesheet" href="../src/plugins/animation/animate.css">
@@ -20,12 +22,13 @@
     <link rel="stylesheet" href="../src/css/responsive.css">
     <title>Coletiva</title>
 </head>
+
 <body>
-    <div class="preloader">
+    <div id="preloader">
         <div id="ctn-preloader" class="ctn-preloader">
             <div class="animation-preloader">
                 <div class="spinner"></div>
-                <div class="text-loading">
+                <div class="txt-loading">
                     <span data-text-preloader="C" class="letters-loading">
                         C
                     </span>
@@ -48,28 +51,528 @@
                         V
                     </span>
                     <span data-text-preloader="A" class="letters-loading">
-                        A
+                    A
                     </span>
-                    <p class="text-center">Loading</p>
                 </div>
-                <div class="loader">
-                    <div class="row">
-                        <div class="col-3 loarder-section section-left">
-                            <div class="bg"></div>
-                        </div>
-                        <div class="col-3 loarder-section section-left">
-                            <div class="bg"></div>
-                        </div>
-                        <div class="col-3 loarder-section section-left">
-                            <div class="bg"></div>
-                        </div>
-                        <div class="col-3 loarder-section section-left">
-                            <div class="bg"></div>
-                        </div>
+                <p class="text-center">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="body-wrapper">
+        <!-- Header -->
+        <header class="header_area">
+            <nav class="navbar navbar-expand-lg menu_one menu_eight">
+                <div class="container">
+                    <a class="navbar-brand sticky_logo" href="#"><img src="/src/img/logo2.png" srcset="/src/img/logo2x-2.png 2x" alt="logo"><img src="/src/img/logo.png" srcset="/src/img/logo2x.png 2x" alt=""></a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menu_toggle">
+                            <span class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <span class="hamburger-cross">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav menu w_menu ml-auto">
+                            <li class="nav-item dropdown submenu mega_menu mega_menu_two active">
+                                <a class="nav-link dropdown-toggle" href="#how-to" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Como estudar juntos
+                                </a>
+                            </li>
+                            <li class="dropdown submenu nav-item"><a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Eventos da Coletiva</a>
+                            </li>
+                            <li class="nav-item dropdown submenu mega_menu">
+                                <a class="nav-link dropdown-toggle" href="#pricing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Planos
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="#about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sobre
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="btn_get btn_hover saas_btn erp_btn_two" href="#get-app">Juntar à Coletiva</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Section I - Banner Area -->
+        <section class="home_analytics_banner_area">
+            <div class="elements">
+                <div class="elements_item"><img src="../src/img/elements_one.png" alt=""></div>
+                <div class="elements_item"><img src="../src/img/elements_two.png" alt=""></div>
+                <div class="elements_item"><img src="../src/img/elements_three.png" alt=""></div>
+                <div class="elements_item"><img src="../src/img/elements_four.png" alt=""></div>
+                <div class="elements_item"><img src="../src/img/elements_five.png" alt=""></div>
+                <div class="elements_item"><img src="../src/img/elements_six.png" alt=""></div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="h_analytics_content">
+                            <h2 class="wow fadeInLeft" data-wow-delay="0.4s">Você nunca mais vai estudar sozinho</h2>
+                            <p class="wow fadeInLeft" data-wow-delay="0.6s">Junte-se a maior comunidade de estudos
+                                online do Brasil, e dê adeus para a falta de motivação.</p>
+                            <a href="#" class="er_btn er_btn_two wow fadeInLeft" data-wow-delay="0.8s">Estude em grupo
+                                agora</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="h_analytices_img">
+                            <!-- <img src="../src/img/banner_bg.svg" alt="" class=""> -->
+                            <img src="../src/img/pie.png" alt="" class="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section II - Features -->
+        <section id="about" class="erp_analytics_area">
+            <div class="container">
+                <div class="hosting_title erp_title text-center">
+                    <p>Os benefícios de estudar em grupo!</p>
+                    <h2>É muito mais do que apenas uma sala de estudos</h2>
+                </div>
+
+                <!-- Feature Container Row -->
+                <div class="row">
+
+                    <!-- Feature Item I -->
+                    <div class="col-md-4">
+                        <div class="erp_analytics_item text-center wow fadeInUp">
+                            <div class="feature_image">
+                                <div class="sticker abs_upLeft">
+                                    <img src="../src/img/book_icon.svg" alt="">
+                                </div>
+                                <img src="../src/img/feature_1.png"
+                                    alt="Foto de uma mesa com um notebook sobre ela, onde mãos repousam indicando um  trabalho sendo feito">
+                                <img src="../src/img/diagonal_bar.svg"
+                                    alt="Um retângulo diagonal laranja">
+                            </div>
+                            <h3>É motivante & cientificamente comprovado</h3>
+                            <p>Sabia que os neurônios aprendem imitando comportamento de outras pessoas? Entre em uma
+                                <strong>sala</strong>, escolha o tempo de foco e dê um <strong>boost</strong> na sua
+                                <strong>produtividade</strong>.</p>
+                            <div class="saiba_mais">
+                                Saiba Mais
+                                <i class="uil uil-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature Item II -->
+                    <div class="col-md-4">
+                        <div class="erp_analytics_item text-center wow fadeInUp">
+                            <div class="feature_image">
+                                <div class="sticker abs_downLeft">
+                                    <img src="../src/img/heart.svg" alt="">
+                                </div>
+                                <img src="../src/img/feature_2.png"
+                                    alt="Imagem de várias pessoas tendo uma reunião online.">
+                            </div>
+                            <h3>É uma comunidade participativa 24/7</h3>
+                            <p>Ache o seu <strong>grupo</strong>, acesse <strong>boot camps</strong> exclusivos,
+                                solicite ajuda a um <strong>tutor</strong> ou peça ajuda à <strong>comunidade</strong>.
+                                Quando precisar de um descanso, use as salas de <strong>relaxamento guiado</strong>.</p>
+                            <div class="saiba_mais">
+                                Saiba Mais
+                                <i class="uil uil-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature Item  III -->
+                    <div class="col-md-4">
+                        <div class="erp_analytics_item text-center wow fadeInUp">
+                            <div class="feature_image">
+                                <div class="sticker abs_downRight">
+                                    <img src="../src/img/trofeu.svg" alt="">
+                                </div>
+                                <img src="../src/img/feature_3.png"
+                                    alt="Imagem de uma mulher estudando, escrevendo anotações em um livro aberto.">
+                            </div>
+                            <h3>Além de efetivo, também é recompensatório</h3>
+                            <p>Entre em uma sala de estudos, defina os seus <strong>objetivos</strong> e curta os seus
+                                estudos. Seu progresso será <strong>gamificado</strong> e você será bem
+                                <strong>recompensado</strong> por suas <strong>conquistas</strong>.</p>
+                            <div class="saiba_mais">
+                                Saiba Mais
+                                <i class="uil uil-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section III - Saiba mais -->
+        <section class="h_analytices_features_area">
+            <div class="container">
+                <div class="row h_analytices_features_item">
+                    <div class="col-lg-6">
+                        <div class="h_analytices_img">
+                            <img class="analytices_img_one wow fadeInUp" data-wow-delay="0.3s" src="../src/img/analytices3.png" alt="">
+                            <img class="analytices_img_two wow fadeInRight" data-wow-delay="0.6s" src="../src/img/analytices2.png" alt="">
+                            <img class="analytices_img_three wow fadeInLeft" data-wow-delay="0.8s" src="../src/img/analytices1.png" alt="">
+                            <img class="analytices_img_four wow fadeInUp" src="../src/img/saiba_mais_3.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="h_analytices_content">
+                            <h2 class="wow fadeInUp" data-wow-delay="0.1s">Porquê estudar sozinho se você pode fazer parte
+                                da Coletiva?</h2>
+                            <p class="wow fadeInUp">Estudar tem que ser algo <strong>divertido</strong> e
+                                <strong>produtivo</strong>. Você define o seus <strong>objetivos</strong> e foca em
+                                <strong>conquistar</strong> todos. Você recebe ajuda de uma <strong>comunidade
+                                    ativa</strong> e de <strong>tutores habilidosos</strong>. Você se junta a um grupo de
+                                estudos <strong>engajado</strong> e se sente <strong>acolhido</strong>. Você vê o
+                                <strong>progresso</strong>. Você celebra suas conquistas ao lado de outros estudantes. Você
+                                percebe que o seu esforço gera retornos, apoio, oportunidades. Imagine ter alguém sempre lá
+                                por você. <strong>A Coletiva</strong> está aqui pra isso.</p>
+                            <div class="saiba_mais">
+                                Saiba Mais
+                                <i class="uil uil-arrow-right"></i>
+                            </div>
+                            <div class="saiba_mais">
+                                FAQ
+                                <i class="uil uil-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section IV - Action panel -->
+        <section class="h_action_area_three">
+            <img class="shap_img one" src="../src/img/shap_one.png" alt="">
+            <img class="shap_img two" src="../src/img/shap_two.png" alt="">
+
+            <div class="container">
+                <div class="h_action_content text-center">
+                    <h2>Ainda na dúvida? Um grupo está estudando <strong>neste momento!</strong></h2>
+                </div>
+                <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="#" class="er_btn_white">Estude em grupo agora</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section V - How To -->
+        <section id="how-to" class="easy_setup_area sec_pad">
+            <div class="container">
+                <div class="hosting_title text-center">
+                    <p>Veja como é fácil fazer parte da <strong>Coletiva</strong>!</p>
+                    <h2>Você tem muuuuito mais o que aprender ainda</h2>
+                </div>
+                <div class="setup_inner">
+
+                    <!-- Steps - Item I -->
+                    <div class="setup_item row">
+                        <div class="col-md-5 setup_img wow fadeInLeft" data-wow-delay="0.25s">
+                            <img src="../src/img/steps_01.png" alt="">
+                        </div>
+
+                        <div class="col-md-2 s_number">
+                            <div class="round">01</div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="setup_content wow fadeInRight" data-wow-delay="0.4s">
+                                <h5>Escolha uma sala & conheça outros alunos e tutores</h5>
+                                <p>Com <strong>música ambiente</strong>, <strong>webcam</strong> on ou off, e com um
+                                    <strong>amigável</strong> e o <strong>engajado chat</strong> com outros estudantes. Você
+                                    escolhe a sala e assunto que mais se encaixa com você.</p>
+                            </div>
+                        </div>
+
+                        <div class="line bottom_half wow height" data-wow-delay="0.5s"></div>
+                    </div>
+
+                    <!-- Steps - Item II -->
+                    <div class="setup_item row flex-row-reverse">
+                        <div class="col-md-5 setup_img wow fadeInLeft" data-wow-delay="0.2s">
+                            <img src="../src/img/steps_02.png" alt="">
+                        </div>
+
+                        <div class="col-md-2 s_number">
+                            <div class="round">02</div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="setup_content wow fadeInRight" data-wow-delay="0.4s">
+                                <h5>Inicie o timer & defina seus objetivos</h5>
+                                <p>Aprenda a usar uma técnica muito eficaz chamada <strong>Pomodoro</strong>. Escolha
+                                    entre <strong>longos</strong> ou <strong>curtos</strong> períodos de foco,
+                                    alternando em pequenos intervalos de <strong>descanso</strong>. Boa preparação é a
+                                    chave para <strong>produtividade</strong> e <strong>equilíbrio</strong>.</p>
+                            </div>
+                        </div>
+                        <div class="line wow height" data-wow-delay="0.9s"></div>
+                    </div>
+
+                    <!-- Steps - Item III -->
+                    <div class="setup_item row">
+                        <div class="col-md-5 setup_img wow fadeInLeft" data-wow-delay="0.25s">
+                            <img src="../src/img/steps_03.png" alt="">
+                        </div>
+
+                        <div class="col-md-2 s_number">
+                            <div class="round">03</div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="setup_content wow fadeInRight" data-wow-delay="0.4s">
+                                <h5>“Eu tô perdido. Heeeelp!!!”</h5>
+                                <p>Ficar preso em um assunto é mais comum do que você imagina. Se sentindo desmotivado,
+                                    estressado ou estagnado nos estudos? Nossa comunidade de alunos e tutores está aqui
+                                    para você :)</p>
+                            </div>
+                        </div>
+
+                        <div class="line wow height" data-wow-delay="0.9s"></div>
+                    </div>
+
+                    <!-- Steps - Item IV -->
+                    <div class="setup_item row flex-row-reverse">
+                        <div class="col-md-5 setup_img wow fadeInLeft" data-wow-delay="0.2s">
+                            <img src="../src/img/steps_04.png" alt="">
+                        </div>
+
+                        <div class="col-md-2 s_number">
+                            <div class="round">04</div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="setup_content wow fadeInRight" data-wow-delay="0.4s">
+                                <h5>Tire um tempo para descansar e voltar com tudo!</h5>
+                                <p>Descansar a nossa mente é um passo <strong>crucial</strong> para o sucesso nos
+                                    estudos. Na <span>Coletiva</span> você terá acesso a salas com <strong>relaxamento
+                                        guiado</strong>. São vários vídeos e eventos com <strong>meditação, yoga,
+                                        exercícios de respiração</strong>, e mais.</p>
+                            </div>
+                        </div>
+                        <div class="line wow height" data-wow-delay="0.9s"></div>
+                    </div>
+
+
+                    <!-- Steps - Item V -->
+                    <div class="setup_item row">
+                        <div class="col-md-5 setup_img wow fadeInLeft" data-wow-delay="0.25s">
+                            <img src="../src/img/steps_05.png" alt="">
+                        </div>
+
+                        <div class="col-md-2 s_number">
+                            <div class="round">05</div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="setup_content wow fadeInRight" data-wow-delay="0.4s">
+                                <h5>Celebre e seja recompensado por suas vitórias!</h5>
+                                <p>Comunidade que <strong>estuda junta</strong> também <strong>celebra junta</strong>.
+                                    Veja o seu <strong>progresso todo dia</strong>. Você <strong>ganha pontos</strong>
+                                    ao estudar, que podem ser trocados por <strong>recompensas exclusivas</strong> dos
+                                    nossos parceiros.</p>
+                            </div>
+                        </div>
+
+                        <div class="line bottom_half wow height" data-wow-delay="0.5s"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section VI - Pricing -->
+        <section id="pricing" class="analytices_price_area bot_pad">
+            <div class="container">
+                <div class="hosting_title text-center">
+                    <p>Você não paga nada para dar um <strong>boost</strong> nos estudos!</p>
+                    <h2>Ganhe mais benefícios com os nossos planos extras.</h2>
+                </div>
+
+                <div class="row align-items-center">
+
+                    <!-- Pricing Item I - Calouro -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="analytices_price_item">
+                            <div class="p_head">
+                                <h5>Calouro</h5>
+                                <div class="rate">Free for All</div>
+                                <h6>forever</h6>
+                            </div>
+                            <ul class="list-unstyled p_body">
+                                <li>Entre em qualquer sala de estudo<i class="ti-check"></i></li>
+                                <li>Suporte 24/7 da comunidade<i class="ti-check"></i></li>
+                                <li>Troque pontos por prêmios<i class="ti-check"></i></li>
+                                <li>Análise do progresso e conquistas<i class="ti-check"></i></li>
+                            </ul>
+                        </div>
+                    </div>  
+
+                    <!-- Pricing Item I - Veterano -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="analytices_price_item active">
+                            <div class="p_head">
+                                <h5>Veterano</h5>
+                                <h6 class="tag"><i class="icon_ribbon_alt"></i>Mais Popular</h6>
+                                <div class="rate">$19.99</div>
+                                <h6>$ / mensal</h6>
+                            </div>
+                            <ul class="list-unstyled p_body">
+                                <li>Tudo do plano Calouro<i class="ti-check"></i></li>
+                                <li>Pass livre para os boot camps<i class="ti-check"></i></li>
+                                <li>Suporte exclusivo dos nossos tutores<i class="ti-check"></i></li>
+                                <li>Ganhe mais XP e pontos para trocar<i class="ti-check"></i></li>
+                                <li>Prêmio exclusivos de parceiros<i class="ti-check"></i></li>
+                            </ul>
+                        </div>
+                    </div>  
+
+                    <!-- Pricing Item III - Experts -->
+                    <div class="col-lg-4 col-md-6">
+                    <div class="analytices_price_item">
+                        <div class="p_head">
+                            <h5>Expert</h5>
+                            <div class="rate">$39.99</div>
+                            <h6>$ / mensal</h6>
+                        </div>
+                        <ul class="list-unstyled p_body">
+                            <li>Tudo do plano Calouro e Veterano<i class="ti-check"></i></li>
+                            <li>Acesso ao conteúdo Expert Skills<i class="ti-check"></i></li>
+                            <li>Consultoria de carreira<i class="ti-check"></i></li>
+                            <li>Network com empresas parceiras<i class="ti-check"></i></li>
+                        </ul>
+                    </div>
+                </div>  
+                </div>
+            </div>
+        </section>
+
+        <!-- Section VI - Action Area 2 -->
+        <section class="erp_call_action_area analytices_action_area_two">
+            <div class="container">
+                <div class="erp_action_content text-center">
+                    <img src="../src/img/rocket.png" alt="">
+                    <h3>O jeito mais produtivo de estudar</h3>
+                    <p>Seja o protagonista do seu próprio <span>futuro</span>.</p>
+                    <a href="#" class="er_btn er_btn_two">Estude em grupo agora</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer_area h_footer_dark pos_footer_area">
+            <img class="leaf_left" src="../src/img/leaf-left.png" alt="">
+            <img class="leaf_right" src="../src/img/leaf-right.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="f_widget dark_widget company_widget">
+                            <a href="index.html" class="f-logo"><img src="img/logo2.png" alt=""></a>
+                            <p>© 2021 Coletiva, LLC. Todos os direitos reservados. Feito com ❤️ por Vinicius Queiroz.</p>
+                            <div class="f_social_icon">
+                                <a href="#" class="ti-linkedin"></a>
+                                <a href="#" class="ti-github"></a>
+                                <a href="#" class="ti-instagram"></a>
+                                <a href="#" class="ti-twitter-alt"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget dark_widget about-widget pl_70">
+                            <h3 class="f-title f_500 t_color f_size_18 mb_40">Download</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">For Linux</a></li>
+                                <li><a href="#">For MacOs</a></li>
+                                <li><a href="#">For Windows</a></li>
+                                <li><a href="#">For Android</a></li>
+                                <li><a href="#">For IOS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget dark_widget about-widget pl_20">
+                            <h3 class="f-title f_500 t_color f_size_18 mb_40">Ajuda</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Privacidade</a></li>
+                                <li><a href="#">Termos & Condições</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">Planos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6">
+                        <div class="f_widget dark_widget about-widget pl_20">
+                            <h3 class="f-title f_500 t_color f_size_18 mb_40">Contato</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">Suporte</a></li>
+                                <li><a href="#">Tutores</a></li>
+                                <li><a href="#">Entre no Discord</a></li>
+                                <li><a href="#">Status do servidor</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pos_footer_bottom justify-content-between d-flex align-items-end">
+                    <img class="pos_women" src="../src/img/women.png" alt="">
+                    <img src="../src/img/people.png" alt="">
+                    <img class="pos_women" src="..//src/img/man.png" alt="">
+                </div>
+            </div>
+            <svg class="wave_shap" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" opacity="0.302" fill="rgb(73, 69, 140)" d="M22.990,11.999 C22.990,11.999 -62.334,196.188 102.000,90.998 C236.033,5.204 349.217,18.152 512.000,80.998 C773.380,181.909 898.075,49.752 1051.000,15.998 C1316.369,-42.574 1488.518,78.268 1581.000,112.999 C1783.485,189.036 1942.990,61.999 1942.990,61.999 L1942.990,211.999 L22.990,211.999 L22.990,11.999 Z" />
+            </svg>
+        </footer>
+    </div>
+
+    <!-- Javascript Opcional e Plugins -->
+    <!-- Primeiro Jquery, depois Popper.js, depois Bootstratp -->
+    <script src="../src/js/jquery-3.2.1.min.js"></script>
+    <script src="../src/js/propper.js"></script>
+    <script src="../src/js/bootstrap.min.js"></script>
+    <script src="../src/plugins/wow/wow.min.js"></script>
+    <script src="../src/plugins/sckroller/jquery.parallax-scroll.js"></script>
+    <script src="../src/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="../src/plugins/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../src/plugins/isotope/isotope-min.js"></script>
+    <script src="../src/plugins/magnify-pop/jquery.magnific-popup.min.js"></script>
+    <script src="../src/plugins/bootstrap-selector/js//bootstrap-select.min.js"></script>
+    <script src="../src/plugins/nice-select/jquery.nice-select.min.js"></script>
+    <script src="../src/plugins/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../src/js/plugins.js"></script>
+    <script src="../src/js/main.js"></script>
 </body>
+
 </html>
