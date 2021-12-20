@@ -10798,7 +10798,7 @@ a .h_head:hover {
 
 /*=========== erp_analytics_area css ============*/
 .erp_analytics_area {
-  background: url("/src/img/background.png") no-repeat scroll center 0/cover;
+  background: url("/public/img/background.png") no-repeat scroll center 0/cover;
   padding: 100px 0px 220px;
 }
 
@@ -11042,7 +11042,7 @@ a .h_head:hover {
 .erp_call_action_area:before {
   content: "";
   position: absolute;
-  background: url("/src/img/shape.png") no-repeat scroll center bottom/cover;
+  background: url("/public/img/shape.png") no-repeat scroll center bottom/cover;
   width: 100%;
   left: 0;
   height: 100%;
