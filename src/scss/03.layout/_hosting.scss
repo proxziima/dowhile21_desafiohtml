@@ -177,7 +177,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("/src/img/hosting/map.png") no-repeat scroll center 0 / cover; 
+    background: url("../../src/img/hosting/map.png") no-repeat scroll center 0 / cover; 
     z-index: -1;
 }
 .domain_box_info{
@@ -604,7 +604,7 @@ a .h_head{
     }
 }
 .h_map{
-    background: url('/src/img/hosting/region_map.png') no-repeat scroll center top;
+    background: url('../../src/img/hosting/region_map.png') no-repeat scroll center top;
     height: 595px;
     ul{
         height: 100%;
@@ -827,7 +827,7 @@ a .h_head{
         content: "";
         width: 100%;
         height: 100%;
-        background: url(../img/pos/wave_two.png) no-repeat scroll center bottom;
+        background: url("../../src/img/pos/wave_two.png") no-repeat scroll center bottom;
         position: absolute;
         left: 0;
         top: -100%;
@@ -1391,7 +1391,7 @@ a .h_head{
 
 /*=========== erp_analytics_area css ============*/
 .erp_analytics_area{
-    background: url("/src/img/background.png") no-repeat scroll center 0 /cover;
+    background: url("../../src/img/background.png") no-repeat scroll center 0 /cover;
     padding: 100px 0px 220px;
 }
 .erp_analytics_item{
@@ -1613,7 +1613,7 @@ a .h_head{
     &:before{
         content: "";
         position: absolute;
-        background: url("/src/img/shape.png") no-repeat scroll center bottom / cover;
+        background: url("../../src/img/shape.png") no-repeat scroll center bottom / cover;
         width: 100%;
         left: 0;
         height: 100%;
@@ -1913,7 +1913,7 @@ a .h_head{
         content: "";
         width: 100%;
         height: 10px;
-        background: url("../img/pos/shape_bg.png") no-repeat scroll center bottom / cover;
+        background: url("../../src/img/pos/shape_bg.png") no-repeat scroll center bottom / cover;
         position: absolute;
         bottom: -10px;
         left: 0;
